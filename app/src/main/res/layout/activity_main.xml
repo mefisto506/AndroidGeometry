@@ -1,0 +1,84 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/sqareImg"
+            android:src="@drawable/square"
+            android:layout_height="40dp"
+
+            android:layout_width="40dp" />
+
+        <TextView
+            android:id="@+id/sqareString"
+            android:text="@string/square"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:onClick="clickSquare"
+
+         />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/rectangleImg"
+            android:src="@drawable/rectangle"
+            android:layout_height="40dp"
+
+            android:layout_width="40dp" />
+
+        <TextView
+            android:id="@+id/rectangleString"
+            android:text="@string/rectangle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:onClick="clickRectangle"
+
+
+            />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/circleImg"
+            android:src="@drawable/circle"
+            android:layout_height="40dp"
+
+            android:layout_width="40dp" />
+
+        <TextView
+            android:id="@+id/circleString"
+            android:text="@string/circle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:onClick="clickSquare"
+
+
+            />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/triangleImg"
+            android:src="@drawable/triangle"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+
+            />
+        <TextView
+            android:id="@+id/triangleString"
+            android:text="@string/triangle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="40dp"
+            android:onClick="clickTriangle"
+            />
+    </TableRow>
+
+</TableLayout>

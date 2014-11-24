@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Geometry</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="square">Kwadrat</string>
+    <string name="rectangle">Prostokąt</string>
+    <string name="triangle">Trójkąt</string>
+    <string name="circle">Koło</string>
+    <string name="title_activity_square">square</string>
+    <string name="title_activity_rectangle">rectangle</string>
+    <string name="title_activity_circle">circle</string>
+    <string name="title_activity_triangle">triangle</string>
+    <string name="side">Podaj długość boku:</string>
+    <string name="sides">Podaj długość boków:</string>
+    <string name="calculate">Oblicz</string>
+    <string name="circuit">Obwód</string>
+    <string name="area">Pole</string>
+</resources>
